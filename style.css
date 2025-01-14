@@ -259,6 +259,9 @@ textarea {
   }
 }
 @media (max-width: 768px) {
+  body{
+    background: linear-gradient(0deg,#000000,#002800);
+  }
   nav a {
     display: none;
   }
