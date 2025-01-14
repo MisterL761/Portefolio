@@ -259,14 +259,16 @@ textarea {
   }
 }
 @media (max-width: 768px) {
-nav a {
-  display: none;
-}
-  .logo{
+  nav a {
+    display: none;
+  }
+
+  .logo {
     width: 20%;
     margin-right: auto;
     margin-left: auto;
   }
+}
 @media (max-width: 426px){
 
   .hero-section {
@@ -276,14 +278,14 @@ nav a {
     background-size: 100%;
   }
   .presentation p{
-    font-size: 12 px;
+    font-size: 15px;
   }
   .presentation h2{
     text-align: center;
     font-size: 1.5rem;
   }
   .telecharger{
-    font-size: 16px;
+    font-size: 12px;
     padding: 4% ;
   }
   .cadre {
@@ -296,7 +298,7 @@ nav a {
     padding:6%;
   }
   .presentation img{
-    width: 70%;
+    width: 60%;
   }
   .competences p{
     font-size: 10px;
@@ -306,25 +308,6 @@ nav a {
     width: 90%;
     padding:8%;
   }
-  .feedback-input {
-    padding: 13px;
-    margin-bottom: 15px;
-    width:80%;
-    box-sizing: border-box;
-    outline:0;
-  }
-  [type="submit"] {
-    width: 80%;
-    font-size:14px;
-    padding-top:10px;
-    padding-bottom:10px;
-  }
-  .formulaire h2{
-    text-align: center;
-    margin-top: 10%;
-    font-size: 2rem;
-  }
-}
 }
 
 
