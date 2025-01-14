@@ -267,14 +267,14 @@ textarea {
     background-size: 100%;
   }
   .presentation p{
-    font-size: 15px;
+    font-size: 20 px;
   }
   .presentation h2{
     text-align: center;
     font-size: 1.5rem;
   }
   .telecharger{
-    font-size: 12px;
+    font-size: 18px;
     padding: 4% ;
   }
   .cadre {
@@ -283,11 +283,11 @@ textarea {
     padding: 4%;
   }
   .cadre2 {
-    width: 70%;
+    width: 80%;
     padding:6%;
   }
   .presentation img{
-    width: 40%;
+    width: 60%;
   }
 }
 
