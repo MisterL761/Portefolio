@@ -283,11 +283,19 @@ textarea {
     padding: 4%;
   }
   .cadre2 {
-    width: 100%;
+    width: 70%;
     padding:6%;
   }
   .presentation img{
     width: 70%;
+  }
+  .competences p{
+    font-size: 10px;
+    text-align: center;
+  }
+  .cadre6 {
+    width: 90%;
+    padding:8%;
   }
 }
 
