@@ -258,4 +258,33 @@ textarea {
     background-position: 0 0;
   }
 }
+@media (max-width: 426px){
+
+  .hero-section {
+    background-image: url(img/bg-code.jpg);
+    min-height: 87vh;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+  .presentation p{
+    font-size: 10px;
+  }
+  .presentation h2{
+    text-align: center;
+    font-size: 1rem;
+  }
+  .telecharger{
+    font-size: 10px;
+    padding: 2% ;
+  }
+  .cadre {
+    width: 50%;
+    margin-top: 40%;
+    padding: 4%;
+  }
+  .cadre2 {
+    width: 60%;
+    padding:6%;
+  }
+}
 
