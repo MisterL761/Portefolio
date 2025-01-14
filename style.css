@@ -38,8 +38,10 @@ nav a {
 .hero-section {
   background-image: url(img/bg-code.jpg);
   min-height: 87vh;
-  background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover; /* Utilisez 'cover' pour un ajustement optimal */
+  background-position: center; /* Centrez le fond */
+  background-repeat: no-repeat; /* Évitez que l'image se répète */
+  background-attachment: scroll; /* Retirez 'fixed' pour une meilleure réactivité */
 }
 .logo {
   height: auto;
@@ -364,5 +366,6 @@ textarea {
     margin-top: 10%;
     font-size: 2rem;
   }
+
 }
 
