@@ -1,0 +1,41 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    }
+    
+body{
+    font-family: "Cormorant", serif; 
+    font-size: 20px; 
+
+  }
+  img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    display: inline-block;
+    
+
+  }
+
+  footer{
+    height: 80px;
+    background-color: rgb(115, 115, 115);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  a{
+    text-decoration: none;
+    color:white ;
+
+  }
+  h2{
+    margin: 25px 0px 40px 25px;
+    font-weight: bold;
+    
+  }
+
+  #accueil{
+    color: black;
+  }

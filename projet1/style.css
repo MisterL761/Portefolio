@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Space Mono;
+  background-color: #fdf9fd;
+}
+h1 {
+  color: #161616;
+  text-align: justify;
+  font-size: 70px;
+  font-weight: 300;
+}
+h2,
+h3 {
+  color: #161616;
+}
+
+p {
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #2d2d2d;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  color: #fb203b;
+}
+
+ul,
+li,
+ol {
+  color: #2d2d2d;
+}
+
+span {
+  text-shadow: -1px 3px 3px red, 2px 1px 5px orange, -3px 4px 7px yellow,
+    -1px -1px 0px green, 0px -4px 6px rgb(2, 120, 255);
+}
+
+div {
+  text-align: center;
+  background-color: #2d2d2d;
+}
+em {
+  color: rgb(255, 0, 0);
+  font-style: italic;
+}
