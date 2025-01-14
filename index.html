@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio Medrano Lucas</title>
+</head>
+<body>
+<header>
+  <img class="logo" src="img/logo.jpg" alt="logo" />
+  <nav>
+    <a href="#a-propos">A propos</a>
+    <a href="#projet-titre">Projets</a>
+    <a href="#competences">Compétences</a>
+    <a href="#contactez">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <div class="hero-section">
+      <div class="container-cadre">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-12 cadre mx-auto">
+            <h1>Medrano Lucas</h1>
+            <br />
+            <em><p>Développeur étudiant</p></em>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="space"></div>
+    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">
+      <div class="presentation">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-12 cadre2 mx-auto">
+            <h2 id="a-propos">Présentation</h2>
+            <br>
+            <img src="img/Lucas.jpg" alt="Lucas Medrano">
+            <br><br><br>
+            <em>
+              <p>
+                Bonjour, je m'appelle Lucas Medrano. Je suis un jeune développeur encore en études, toujours en quête de nouvelles connaissances. Je souhaite trouver une alternance pour épauler mes études. Actuellement, je suis en Bac+3 Développement web et souhaite poursuivre en Bac+5 Cybersécurité.
+              </p>
+            </em>
+            <br><br>
+            <a href="autre/Medrano-Lucas.pdf" download="CV-Medrano-Lucas.pdf">
+              <button class="telecharger"><strong>Télécharger mon CV</strong></button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 id="projet-titre">Voici mes projets</h2>
+    <div class="projets">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-6">
+          <div data-aos="flip-left" data-aos-duration="1000">
+            <div class="cadre3">
+              <img src="img/cantilver.png" alt="image du projet 1">
+              <div class="space2"></div>
+              <p>Cantilever</p>
+              <div class="space2"></div>
+              <a href="projet1/index.html" target="_blank">Voir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="cadre3">
+              <img src="img/john-doe.png" alt="image du projet 2">
+              <div class="space2"></div>
+              <p>John Doe</p>
+              <div class="space2"></div>
+              <a href="projet2/John-doe/miniprojet2.html" target="_blank">Voir plus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 id="competences">Mes compétences</h2>
+    <div class="competences">
+      <div class="row">
+        <div class="col-4 col-md-4 col-lg-4 margin-top-comp">
+          <div data-aos="zoom-in">
+          <div class="cadre5">
+            <p>HTML</p>
+            <img class="logo-comp" src="img/html.png" alt="Logo Html">
+          </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-4 col-lg-4 margin-top-comp">
+          <div data-aos="zoom-in">
+          <div class="cadre5">
+            <p>CSS</p>
+            <img class="logo-comp" src="img/css-3.png" alt="Logo Css">
+          </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-4 col-lg-4 margin-top-comp">
+          <div data-aos="zoom-in">
+          <div class="cadre5">
+            <p>Bootstrap</p>
+            <img class="logo-comp" src="img/bootstrap_5968672.png" alt="logo bootstrap">
+          </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-4 col-lg-4 margin-top-comp">
+          <div data-aos="zoom-in">
+          <div class="cadre5">
+            <p>Figma</p>
+            <img class="logo-comp" src="img/figma.png" alt="logo figma">
+          </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-4 col-lg-4 margin-top-comp">
+          <div data-aos="zoom-in">
+          <div class="cadre5">
+            <p>Tailwind</p>
+            <img class="logo-comp" src="img/tailwind.png" alt="logo Tailwind">
+          </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-4 col-lg-4 margin-top-comp">
+          <div data-aos="zoom-in">
+          <div class="cadre5">
+            <p>Linux</p>
+            <img class="logo-comp" src="img/linux.png" alt="logo linux">
+          </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section>
+
+    <div class="formulaire cadre6">
+      <h2 id="contactez">Contactez-moi</h2>
+      <form>
+        <input name="name" type="text" class="feedback-input" placeholder="Nom Prénom" />
+        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+        <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+        <input type="submit" value="Envoyer"/>
+      </form>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
+
