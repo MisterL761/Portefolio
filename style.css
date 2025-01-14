@@ -270,12 +270,15 @@ textarea {
   }
 }
 @media (max-width: 426px){
-
+body{
+  background: linear-gradient(0deg,#000000,#002800);
+}
   .hero-section {
-    background-image: url(img/bg-code.jpg);
+    background-image: none;
     min-height: 87vh;
     background-attachment: fixed;
     background-size: 100%;
+
   }
   .presentation p{
     font-size: 15px;
