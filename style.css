@@ -337,17 +337,15 @@ body{
     font-size: 2rem;
   }
   .cadre6 {
-    width: 70%;
+    width: 80%;
     padding:8%;
+    margin-top: 40%;
   }
   #projet-titre{
     margin-top: 30%;
   }
   #competences{
     margin-top: 30%;
-  }
-  .cadre6 {
-    margin-top: 40%;
   }
 }
 
