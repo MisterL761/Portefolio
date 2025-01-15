@@ -312,11 +312,11 @@ body{
 
   .feedback-input {
     font-weight:500;
-    font-size: 18px;
+    font-size: 11px;
     border-radius: 5px;
-    line-height: 17px;
+    line-height: 15px;
     border:2px solid #00ff00;
-    padding: 6px;
+    padding: 5px;
     margin-bottom: 15px;
     width:100%;
   }
@@ -327,17 +327,17 @@ body{
 
   [type="submit"] {
     width: 100%;
-    font-size:20px;
+    font-size:12px;
     padding-top:10px;
     padding-bottom:10px;
     font-weight:700;
   }
   .formulaire h2{
     margin-top: 10%;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .cadre6 {
-    width: 80%;
+    width: 70%;
     padding:8%;
     margin-top: 40%;
   }
