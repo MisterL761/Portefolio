@@ -300,7 +300,13 @@ body{
     padding:6%;
   }
   .cadre3{
+    width: 65%;
+  }
+  .projets img{
+    height: auto;
     width: 100%;
+    min-height:43vh;
+    border-radius: 5%;
   }
   .presentation img{
     width: 60%;
