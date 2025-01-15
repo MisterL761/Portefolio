@@ -104,6 +104,7 @@ header {
 .projets img{
   height: auto;
   width: 100%;
+  min-height:40vh;
   border-radius: 5%;
 }
 .projets a{
@@ -118,14 +119,14 @@ header {
 .cadre3 {
   color: rgb(0, 255, 0);
   height: auto;
-  width: 50%;
+  width: 55%;
   padding:3%;
   border-radius: 2%;
   border: 1px solid rgb(0, 225, 0);
   margin-left: auto;
   margin-right: auto;
   background: linear-gradient(0deg,#272727,#000);
-  margin-top: 8%;
+  margin-top: 10%;
 }
 .space2{
   margin-top: 10%;
