@@ -272,7 +272,7 @@ textarea {
     margin-left: auto;
   }
 }
-@media (max-width: 426px){
+@media (max-width: 768px){
 body{
   background: linear-gradient(0deg,#000000,#002800);
 }
