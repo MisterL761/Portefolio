@@ -305,7 +305,7 @@ body{
   .projets img{
     height: auto;
     width: 100%;
-    min-height:43vh;
+    min-height:30vh;
     border-radius: 5%;
   }
   .presentation img{
