@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "smartwizard": "^6.0.6"
+  }
+}

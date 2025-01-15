@@ -1,0 +1,255 @@
+.logo{
+height: auto;
+width: 4%;
+margin-right:33%;
+}
+header{
+  position: sticky;
+  top:0;
+  left: 0;
+  z-index: 10;
+}
+.navbar a{
+    color: white;
+    font-size: 1rem;
+    transition: 0.5s;
+}
+.navbar a:hover{
+  scale: 1.3;
+}
+
+.navbar-brand{
+    margin: 0;
+    padding: 0;
+}
+.navbar:active {
+    color: aliceblue;
+  }
+  .nav-link:focus {
+    color: rgb(105, 105, 105);
+  }
+  .dropdown-menu {
+    background-color: black;
+  }
+  .nav-link:focus {
+    color: white;
+  }
+  .navbar a:hover {
+    color: white;
+  }
+  .dropdown-item:hover {
+    background-color: rgb(55, 55, 55);
+  }
+  .dropdown-item:active{
+    color: white;
+  }
+  .hero-section{
+    background-image: url(../images/bg-vetements.jpg);
+    height:91vh;
+    background-attachment: fixed ;
+  }
+  .cadre{
+    
+    color: black;
+    min-height:91vh;
+    width: 40%;
+    height: auto;
+    background-color:white;
+    /* background: linear-gradient(to right, rgb(255, 255, 255), rgb(153, 152, 159)); */
+    
+
+  }
+  .cadre h1{
+    font-size: 2rem;
+    margin-left: 5%;
+    margin-top: 25%;
+  }
+  .cadre p{
+    font-size: 1.3rem;
+    margin-left: 5%;
+  }
+  .connect {
+    background-color:#0a9d00;
+    border: #0a9d00 2px;
+    border-radius:24px;
+    color:#ffffff;
+    font-family:Arial,sans-serif;
+    font-size:17px;
+    font-weight:bold;
+    font-style:italic;
+    padding:17px 31px;
+    text-decoration:none;
+    margin-left: 35%;
+    margin-top: 10%;
+    transition: 0.5s;
+  }
+  .connect:hover {
+    background:linear-gradient(to bottom, #000000 5%, #080808 100%);
+    background-color:#000000;
+    scale: 1.3;
+  }
+  .connect:active {
+    position:relative;
+    top:1px;
+  }
+.Chercher{
+  margin-left: 0.5%;
+}
+.carousel{
+  height: auto;
+  width:30%;
+  margin-bottom: 5%;
+}
+.annonce-carrousel{
+justify-content: center;
+display: flex;
+margin-top: 2%;
+}
+.nouveautée{
+  text-align: center;
+  margin-top: 10%;
+  color: white;
+}
+.row img{
+  width: 100%;
+  height: auto;
+  min-height:325px ;
+  
+}
+.row{
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 0;
+  
+}
+.row p{
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.bg-noir{
+  background-image: url(../images/magasin-2.jpg);
+  background-attachment: fixed;
+}
+label{
+  width:100%;
+}
+.newsletter{
+  text-align: center;
+  margin-top: 10%;
+  background-image: url(../images/fond-news.jpg);
+  background-attachment: fixed;
+  background-position-x:50% ;
+  background-position-y:100% ;
+}
+.newsletter label{
+font-size: 1.5rem;
+font-style:italic;
+color:#ffffff;
+}
+.space{
+  padding: 1%;
+}
+.envoyer {
+  background-color:#0a9d00;
+  border: #0a9d00 2px;
+  border-radius:24px;
+  color:#ffffff;
+  font-family:Arial,sans-serif;
+  font-size:17px;
+  font-style:italic;
+  padding:10px 20px;
+  text-decoration:none;
+
+}
+.navbar-toggler{
+  justify-content: end;
+  background-color: white;
+}
+.envoyer:hover{
+  background-color: black;
+}
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 50px 20px;
+  
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 20px;
+  text-align: start;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+
+.footer-column img {
+  height: auto;
+  width: 10%;
+}
+@media (max-width: 426px){
+.hero-section{
+  background-image: none;
+}
+.cadre{
+  width:100%;
+}
+.connect{
+margin-left: 32%;
+}
+}
+@media (max-width: 769px){
+  .hero-section{
+    background-image: none;
+  }
+  .cadre{
+    width:100%;
+  }
+  .connect{
+  margin-left: 39%;
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    margin-bottom: 30px;
+  }
+  }
+  @media (max-width: 426px){
+
+    .connect{
+    margin-left: 32%;
+    }
+    }
