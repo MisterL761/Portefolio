@@ -441,6 +441,7 @@ body{
 @media (max-width: 426px){
   .button{
     font-size: 0.8rem;
+    padding: 0;
   }
   .box{
     padding: 3%;
