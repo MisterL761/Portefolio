@@ -247,6 +247,7 @@ textarea {
 }
 [type="submit"]:hover { background: #1f1f1f; }
 
+/* From Uiverse.io by tarantino421 */
 .box {
   --clr-shadow__border: #00ff00;
   --clr-text: #F6F4EB;
@@ -255,8 +256,8 @@ textarea {
   --size: 2rem;
   position: relative;
   outline: 1px solid var(--clr-shadow__border);
-  width: 50%;
   margin: auto;
+  width: 50%;
 }
 
 .button {
@@ -324,6 +325,7 @@ textarea {
     transform: translateY(calc(50% * var(--i)));
   }
 }
+
 
 @keyframes steam {
   0% {
