@@ -444,7 +444,9 @@ body{
   }
   .box{
     padding: 3%;
+    --size: 1.6rem;
   }
+
 }
 
 
