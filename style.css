@@ -438,5 +438,14 @@ body{
     margin-top: 30%;
   }
 }
+@media (max-width: 426px){
+  .button{
+    font-size: 0.8rem;
+  }
+  .box{
+    padding: 3%;
+  }
+}
+
 
 
