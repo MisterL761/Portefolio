@@ -418,7 +418,7 @@ header {
   top: 0;
   margin-left: -50%;
   margin-top: -70%;
-  background: linear-gradient(700deg,#000000,#000000 60%,#00f000);
+  background: linear-gradient(700deg,#000000,#00ff00 60%,#00f000);
 }
 
 .icon {
