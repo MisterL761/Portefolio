@@ -407,6 +407,7 @@ header {
   height: 330px;
   border-radius: 16px;
   overflow: hidden;
+  margin-top: 20%;
 }
 
 .wave {
